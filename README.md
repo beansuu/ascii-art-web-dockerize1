@@ -3,8 +3,44 @@ This is a program which takes text and transforms it into ascii
 
 Authors: aburnaz & mtalli
 
-Usage: You first need to install [Docker](https://docs.docker.com/get-docker/)
-Afterwards you have to run this command in your vscode terminal: **bash run.sh** and open http://localhost:8080/ in your browser.
+### INSTALL DOCKER WINDOWS
+
+1. download and install https://docs.docker.com/desktop/install/windows-install/
+2. sing up
+3. Start Docker Desktop
+
+use WSL terminal
+```bash
+docker info
+```
+### now it works
+
+### to build Container
+```bash
+docker build -t ascii-art-web-dockerize .
+```
+  install requierments
+
+### to run Container
+```bash
+docker run --name=ascii-art-web-dockerize -p 80:8080 ascii-art-web-dockerize
+```
+
+## type in browser for Testing
+http://localhost/docker
+or
+localhost:80
+
+### to stop Container
+```bash
+docker stop ascii-art-web-dockerize
+```
+
+### to prune Container
+```bash
+docker builder prune -a
+```
+
 
 # ascii-art-web-docker
 
