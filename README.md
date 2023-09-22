@@ -25,8 +25,7 @@ docker build -t ascii-art-web-dockerize .
 ```bash
 docker run --name=ascii-art-web-dockerize -p 80:8080 ascii-art-web-dockerize
 ```
-**OR you can run this in your vscode terminal and it will build and run the Container automatically**
-**bash run.sh**
+**OR you can run this in your vscode terminal and it will build and run the Container automatically: bash run.sh**
 ## type in browser for Testing
 http://localhost/docker
 or
