@@ -14,22 +14,9 @@ use WSL terminal
 docker info
 ```
 ### now it works
-
-### to build Container
-```bash
-docker build -t ascii-art-web-dockerize .
-```
-  install requierments
-
-### to run Container
-```bash
-docker run --name=ascii-art-web-dockerize -p 80:8080 ascii-art-web-dockerize
-```
-**OR you can run this in your vscode terminal and it will build and run the Container automatically: bash run.sh**
+**You can run this in your vscode terminal and it will build and run the Container automatically: bash run.sh**
 ## type in browser for Testing
-http://localhost/docker
-or
-localhost:80
+http://localhost:8080
 
 ### to stop Container
 ```bash
@@ -44,6 +31,6 @@ docker builder prune -a
 
 # ascii-art-web-docker
 
-Here is an example of the website style: https://i.imgur.com/oVVEiRc.png
+Here is an example of the website style: https://media.discordapp.net/attachments/1154782810683494400/1154786760572809308/Screenshot_2023-09-22_at_17.28.46.png?width=955&height=607
 
 Enjoy! :D
